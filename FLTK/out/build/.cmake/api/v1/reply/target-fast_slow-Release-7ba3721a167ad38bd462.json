@@ -1,0 +1,288 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/test/fast_slow.exe"
+		},
+		{
+			"path" : "bin/test/libfast_slow.dll.a"
+		},
+		{
+			"path" : "bin/test/fast_slow.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"fl_create_example",
+			"target_link_libraries",
+			"add_custom_command",
+			"FLTK_RUN_FLUID",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMake/fl_create_example.cmake",
+			"test/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"CMake/FLTK-Functions.cmake",
+			"CMake/options.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 810,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 50,
+				"parent" : 6
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 8
+			},
+			{
+				"file" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 719,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 186,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 212,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 263,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_LARGEFILE_SOURCE"
+				},
+				{
+					"define" : "fast_slow_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/user/Desktop/FLTK/source/zlib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/user/Desktop/FLTK/source/png"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/user/Desktop/FLTK/source/jpeg"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/user/Desktop/FLTK/source/out/build/test"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/user/Desktop/FLTK/source/test"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/user/Desktop/FLTK/source/out/build/src/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/user/Desktop/FLTK/source/src/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "fltk::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "fluid-cmd::@167fe83ba7da77ddcbfb"
+		}
+	],
+	"id" : "fast_slow::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mwindows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LC:\\Users\\user\\Desktop\\FLTK\\source\\out\\build\\src\\..\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\libfltk.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lcomctl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lgdiplus",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "fast_slow",
+	"nameOnDisk" : "fast_slow.exe",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/test/fast_slow.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "test/fast_slow.fl",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
