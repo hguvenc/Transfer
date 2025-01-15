@@ -1,0 +1,24 @@
+Find Package 
+pacman -Ss <name or part of the name of the package>
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Install Package
+pacman -S <name of the package>
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Uninstall Package
+pacman -R <name of the package>
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Content of a package (which files come with this package)
+pacman -Ql <name of the package>
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
